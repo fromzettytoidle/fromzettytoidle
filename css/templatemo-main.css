@@ -153,10 +153,15 @@ a:hover { color: #FF0; }
     background-position: center;
     background-color: #fff;
     justify-content: center;
-
-    -webkit-animation-name: changes;
+    -webkit-animation-name: change;
 -webkit-animation-duration: 18s;
+-webkit-animation-iteration-count: infinite;
 -webkit-animation-timing-function: ease-in-out;
+-webkit-animation-fill-mode: forwards;
+
+    /* -webkit-animation-name: changes;
+-webkit-animation-duration: 18s;
+-webkit-animation-timing-function: ease-in-out; */
 }
 
 .baner-content .container{
@@ -316,7 +321,7 @@ h4, .h4 {
 
 @media only screen and (min-width: 600px) {
   .baner-content {
-    background-position: top center;    
+    background-position: top center;
   }
 
   .baner-content .container{
@@ -360,7 +365,7 @@ h4, .h4 {
       }
       40%
       {
-          background-image: url(../img/IDLE/IDLE_1.jpg);
+          background-image: url(../img/IDLE/IDLE.jpg);
       }
       60%
       {
