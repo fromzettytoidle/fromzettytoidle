@@ -244,27 +244,27 @@ a:hover { color: #FF0; }
 
 #miyeon {
   background-image: url(../img/IDLE/miyeon_potrait.jpg);
-  /* background-position: top center; */
+  background-position: top center;
 }
 
 #minnie {
   background-image: url(../img/IDLE/minnie_potrait.jpg);
-  /* background-position: center center; */
+  background-position: center center;
 }
 
 #soyeon {
   background-image: url(../img/IDLE/soyeon_potrait.jpg);
-  /* background-position: top center; */
+  background-position: top center;
 }
 
 #yuqi {
   background-image: url(../img/IDLE/yuqi_potrait.jpg);
-  /* background-position: top center; */
+  background-position: top center;
 }
 
 #shuhua {
   background-image: url(../img/IDLE/shuhua.jpg);
-  /* background-position: top center; */
+  background-position: top center;
 }
 
 
