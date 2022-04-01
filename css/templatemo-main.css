@@ -149,8 +149,8 @@ a:hover { color: #FF0; }
   background-image: url(../img/IDLE/6th.jpg);
   /* -webkit-animation: change 18s infinite ease-in-out; */
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    -webkit-background-size: cover;
+    -webkit-background-position: center;
     background-color: #fff;
     justify-content: center;
     -webkit-animation-name: change;
@@ -234,10 +234,10 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-attachment: scroll;
+  -webkit-background-attachment: fixed;
   min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat;
+  -webkit-background-size: cover;  
+  -webkit-background-repeat: no-repeat;
 }
 
 #miyeon {
@@ -322,15 +322,12 @@ h4, .h4 {
 @media only screen and (min-width: 600px) {
   .baner-content {
     background-position: top center;
+    -webkit-background-position: top center;
   }
 
   .baner-content .container{
     position: relative;
     top: 35vh;
-  }
-
-  .service-content{
-    background-attachment: fixed;
   }
 
 
