@@ -147,12 +147,16 @@ a:hover { color: #FF0; }
   padding-top: 30vh;
   text-align: center;
   background-image: url(../img/IDLE/6th.jpg);
-  animation: change 18s infinite ease-in-out;
+  /* -webkit-animation: change 18s infinite ease-in-out; */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-color: #fff;
     justify-content: center;
+
+    -webkit-animation-name: changes;
+-webkit-animation-duration: 18s;
+-webkit-animation-timing-function: ease-in-out;
 }
 
 .baner-content .container{
@@ -163,7 +167,7 @@ a:hover { color: #FF0; }
     margin: auto;
 }
 
-@keyframes change{
+@-webkit-keyframes change{
     0%
     {
         background-image: url(../img/IDLE/6th.jpg);
@@ -199,7 +203,6 @@ a:hover { color: #FF0; }
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 0px;
-  /* animation: test 15s infinite ease-in-out; */
 }
 
 .baner-content em {
@@ -313,8 +316,7 @@ h4, .h4 {
 
 @media only screen and (min-width: 600px) {
   .baner-content {
-    background-position: top center;
-    background-size: contain;
+    background-position: top center;    
   }
 
   .baner-content .container{
@@ -347,7 +349,7 @@ h4, .h4 {
   }
 
 
-  @keyframes change{
+  @-webkit-keyframes change{
       0%
       {
           background-image: url(../img/IDLE/IDLE_1.jpg);
