@@ -234,7 +234,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-attachment: fixed;
+  background-attachment: scroll;
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -328,6 +328,12 @@ h4, .h4 {
     position: relative;
     top: 35vh;
   }
+
+  .service-content{
+    background-attachment: fixed;
+  }
+
+
 
   #miyeon {
     background-image: url(../img/IDLE/miyeon.jpg);
