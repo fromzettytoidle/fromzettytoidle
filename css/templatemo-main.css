@@ -237,7 +237,7 @@ a:hover { color: #FF0; }
   background-attachment: scroll;
   /* -webkit-background-attachment: fixed; */
   min-height: 100vh;
-  background-size: cover;
+  background-size: contain;
   -webkit-background-size: cover;
   background-repeat: no-repeat;
 }
@@ -249,7 +249,7 @@ a:hover { color: #FF0; }
 
 #minnie {
   background-image: url(../img/IDLE/minnie_potrait.jpg);
-  background-position: center center;
+  background-position: center right;
 }
 
 #soyeon {
