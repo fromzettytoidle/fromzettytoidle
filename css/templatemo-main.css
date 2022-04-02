@@ -398,6 +398,16 @@ h4, .h4 {
           background-image: url(../img/IDLE/IDLE_WIN.gif);
       }
   }
+
+  div.preload-images {
+    background: url(../img/IDLE/IDLE_1.jpg) no-repeat -9999px -9999px;
+    background: url(../img/IDLE/IDLE_1.jpg) no-repeat -9999px -9999px,
+      url(../img/IDLE/IDLE_3.jpg) no-repeat -9999px -9999px,
+      url(../img/IDLE/IDLE.jpg) no-repeat -9999px -9999px,
+      url(../img/IDLE/IDLE_6.jpg) no-repeat -9999px -9999px,
+      url(../img/IDLE/IDLE_2.jpg) no-repeat -9999px -9999px,
+      url(../img/IDLE/IDLE_WIN.jpg) no-repeat -9999px -9999px;
+  }
 }
 
 
