@@ -147,7 +147,6 @@ a:hover { color: #FF0; }
   padding-top: 30vh;
   text-align: center;
   background-image: url(../img/IDLE/6th.jpg);
-  /* -webkit-animation: change 18s infinite ease-in-out; */
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -webkit-background-position: center;
@@ -158,6 +157,7 @@ a:hover { color: #FF0; }
 -webkit-animation-iteration-count: infinite;
 -webkit-animation-timing-function: ease-in-out;
 -webkit-animation-fill-mode: forwards;
+-webkit-animation-play-state: running;
 
     /* -webkit-animation-name: changes;
 -webkit-animation-duration: 18s;
