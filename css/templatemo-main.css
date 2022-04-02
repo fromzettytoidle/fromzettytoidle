@@ -234,7 +234,7 @@ a:hover { color: #FF0; }
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-attachment: fixed;
+  background-attachment: scroll;
   /* -webkit-background-attachment: fixed; */
   min-height: 100vh;
   background-size: cover;
