@@ -237,9 +237,9 @@ a:hover { color: #FF0; }
   background-attachment: fixed;
   /* -webkit-background-attachment: fixed; */
   min-height: 100vh;
-  background-size: contain;
+  background-size: cover;
   -webkit-background-size: cover;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 #miyeon {
