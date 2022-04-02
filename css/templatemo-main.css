@@ -200,6 +200,16 @@ a:hover { color: #FF0; }
     }
 }
 
+div.preload-images {
+  background: url(../img/IDLE/6th.jpg) no-repeat -9999px -9999px;
+  background: url(../img/IDLE/6th.jpg) no-repeat -9999px -9999px,
+    url(../img/IDLE/team2.jpg) no-repeat -9999px -9999px,
+    url(../img/IDLE/tomboy.jpg) no-repeat -9999px -9999px,
+    url(../img/IDLE/wins_2.jpg) no-repeat -9999px -9999px,
+    url(../img/IDLE/PHONE_1.jpg) no-repeat -9999px -9999px,
+    url(../img/IDLE/PHONE_2.jpg) no-repeat -9999px -9999px;
+}
+
 
 .baner-content h2 {
   margin-top: 0px;
